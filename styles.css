@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Ubuntu, sans-serif;
 }
 
 ul {
@@ -46,6 +47,8 @@ video {
 #menu button {
     padding: 10px;
     border-radius: 9px;
+    background-color: black;
+    color: white;
 }
 
 h1, h2 {
@@ -81,6 +84,7 @@ footer {
     .brand {
         display: flex;
         flex-direction: row;
+        align-items: flex-end;
     }
 
     #menu {
@@ -91,8 +95,10 @@ footer {
 @media screen and (min-width: 992px) {
     #description {
         display: inline;
+        float: left;
+        width: 40%;
     }
-    #figure {
+    #figure, #video {
         float: right;
         max-width: 600px;
         width: 100%;
