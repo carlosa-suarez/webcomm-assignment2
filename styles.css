@@ -72,6 +72,9 @@ footer {
     color: white;
     align-items: center;
     padding: 5px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
 }
 
 @media screen and (min-width: 576px) {
@@ -93,6 +96,19 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
+    body {
+        font-size: 1.5em;
+    }
+    
+    main {
+        margin: 10px 14%;
+       
+    }
+
+    #title {
+        margin: 10px 0;
+    }
+
     #description {
         display: inline;
         float: left;
@@ -104,4 +120,9 @@ footer {
         width: 100%;
 
     }
+    
+    #picture {
+        box-shadow: -7px -3px 8px 4px gray;
+    }
+}
 }
